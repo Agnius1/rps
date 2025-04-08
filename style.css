@@ -4,12 +4,13 @@ body {
   color: #ff0000;
   margin: 0;
   padding: 0;
+  display: flex;
+  justify-content: center;
 }
 
 h1 {
   font-size: 2rem;
   text-align: center;
-  padding-top: 100px;
 }
 
 p {
@@ -57,7 +58,6 @@ button:hover {
 #computer-score {
   color: #4dff00;
 }
-
 video {
   position: absolute;
   top: 0;
@@ -66,4 +66,13 @@ video {
   height: 100%;
   object-fit: cover;
   z-index: -1;
+}
+.balta {
+  background-color: #706c6c;
+  opacity: 0.95;
+  width: 30rem;
+  height: 20rem;
+  border-radius: 30px;
+  border: #ff0000 0.25rem solid;
+  margin-top: 10rem;
 }
